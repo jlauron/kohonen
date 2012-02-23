@@ -4,12 +4,14 @@ This project contains a python implementation of several algorithms related
 to the self organizing maps of kohonen. For more information on Kohonen maps
 refer to (http://en.wikipedia.org/wiki/Self-organizing_map).
 
-base/
+**base/**
+
   contains base python code for manipulating datasets, defining the algorithms
   common interface and other machine learning tools and helpers (like cross
   validation, distance calculations, etc).
 
-algorithms/
+**algorithms/**
+
   contains all algorithms implementation:
     - kohonen: kohonen som maps algorithm implementation
     variants:
@@ -21,7 +23,8 @@ algorithms/
     - lvq: linear vector quantization algorithm implementation
     - svm: support vector machines algorithm interface
 
-datasets/
+**datasets/**
+
   contains sample dataset to play with the algorithms and compare their results.
 
 Note:
