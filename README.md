@@ -12,16 +12,21 @@ refer to (http://en.wikipedia.org/wiki/Self-organizing_map).
 
 **algorithms/**
 
-  contains all algorithms implementation:
-    - kohonen: kohonen som maps algorithm implementation
-    variants:
-    - recsom: recursive self organizing maps variant implementation
-    other algorithms:
-    - knn: k-nearest neighbors algorithm implementation
-    - kmeans: k-means algorithm implementation
-    - stochastickmeans: stochastic k-means variant of k-means algorithm implementaion
-    - lvq: linear vector quantization algorithm implementation
-    - svm: support vector machines algorithm interface
+contains all algorithms implementation:
+
+- kohonen: kohonen som maps algorithm implementation
+
+variants:
+
+- recsom: recursive self organizing maps variant implementation
+
+other algorithms:
+
+- knn: k-nearest neighbors algorithm implementation
+- kmeans: k-means algorithm implementation
+- stochastickmeans: stochastic k-means variant of k-means algorithm implementaion
+- lvq: linear vector quantization algorithm implementation
+- svm: support vector machines algorithm interface
 
 **datasets/**
 
